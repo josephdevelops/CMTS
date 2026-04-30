@@ -1,6 +1,4 @@
-# CMTS Godot Starter Project
-
-This is a small Godot 4.6.x starter project for the **Classroom Management Training Simulator (CMTS)** capstone.
+# CMTS Godot Project
 
 ## What it includes
 
