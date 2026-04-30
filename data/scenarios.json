@@ -1,0 +1,60 @@
+{
+  "scenarios": [
+	{
+	  "id": "morning_transition",
+	  "title": "Morning Transition",
+	  "grade_band": "Upper Elementary",
+	  "context": "Students are entering the room after recess. Several students are loud, and one student is refusing to sit down.",
+	  "behavior_prompt": "A student says, 'I don't want to do this assignment,' while two others begin laughing and copying the behavior.",
+	  "learning_goal": "Practice calm redirection, clear expectations, and positive classroom management.",
+	  "response_options": [
+		{
+		  "id": "redirect_private",
+		  "text": "Calmly move closer, privately redirect the student, and restate the expected task.",
+		  "score": 3,
+		  "feedback": "Strong choice. This preserves dignity, reduces audience attention, and brings the class back toward the learning task."
+		},
+		{
+		  "id": "public_warning",
+		  "text": "Call the student out loudly in front of the class and warn them immediately.",
+		  "score": 1,
+		  "feedback": "This may stop the behavior temporarily, but it can escalate embarrassment and increase peer attention."
+		},
+		{
+		  "id": "ignore_behavior",
+		  "text": "Ignore the behavior and continue the lesson without addressing it.",
+		  "score": 0,
+		  "feedback": "Ignoring may allow the behavior to spread. Some behaviors need a calm, quick response to protect the classroom environment."
+		}
+	  ]
+	},
+	{
+	  "id": "group_work_conflict",
+	  "title": "Group Work Conflict",
+	  "grade_band": "Elementary",
+	  "context": "Students are working in groups on a technology activity. One group begins arguing over who gets to use the computer.",
+	  "behavior_prompt": "Two students raise their voices. One student pushes the keyboard away and says, 'You never let me do anything.'",
+	  "learning_goal": "Practice conflict resolution, equitable participation, and safe technology use.",
+	  "response_options": [
+		{
+		  "id": "roles_timer",
+		  "text": "Pause the group, assign roles, and use a timer so each student gets a fair turn.",
+		  "score": 3,
+		  "feedback": "Strong choice. Clear roles and time limits reduce conflict while keeping the group focused on the task."
+		},
+		{
+		  "id": "remove_computer",
+		  "text": "Take the computer away from the group for the rest of class.",
+		  "score": 1,
+		  "feedback": "This may stop the conflict, but it removes the learning opportunity instead of teaching students how to collaborate."
+		},
+		{
+		  "id": "choose_one_student",
+		  "text": "Pick one student to control the computer because they are usually responsible.",
+		  "score": 0,
+		  "feedback": "This can seem unfair and may increase frustration. A structured rotation would better support collaboration."
+		}
+	  ]
+	}
+  ]
+}

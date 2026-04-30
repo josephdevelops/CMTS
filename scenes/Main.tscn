@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://dfr3uo1hfl5vd"]
+
+[ext_resource type="Script" uid="uid://kevfpaibf3uk" path="res://scripts/Main.gd" id="1_main"]
+[ext_resource type="Texture2D" uid="uid://bo4ofcets6aky" path="res://assets/ab997ed96ced19eb62986d3f947925d15b2661a16cbb33953aef82c37a4b955e.png" id="2_rvslj"]
+[ext_resource type="AudioStream" uid="uid://cux1gtb7kvs1o" path="res://music/Pixel Draft.mp3" id="3_0bbpv"]
+
+[node name="Main" type="Control" unique_id=540999808]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_main")
+
+[node name="backgroundimg" type="Sprite2D" parent="." unique_id=1959591171]
+position = Vector2(643, 359.87497)
+scale = Vector2(0.7607655, 0.76115835)
+texture = ExtResource("2_rvslj")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=246714036]
+stream = ExtResource("3_0bbpv")
+autoplay = true
